@@ -1107,3 +1107,157 @@
 
 
 
+// CHAPTER 13-15.
+// question.1_________________________________________*
+
+
+
+// var students = [ ];
+
+
+
+
+
+// question.2_________________________________________*
+
+
+
+
+
+
+
+
+
+// question.3_________________________________________*
+
+
+// var arr = ["item1","item2","item3","item4"];
+
+
+
+// question.4_________________________________________*
+
+
+// var arr = [10,20,30,40,50];
+
+
+// question.5_________________________________________*
+
+
+// var arr = [true, false];
+
+
+
+
+// question.6_________________________________________*
+
+
+// var arr = [10,20,"item1","item2",undefined, null,true];
+
+
+
+// question.7_________________________________________*
+
+
+
+// var array = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil","PhD"];
+
+
+// document.write("<ol>");
+
+// document.write("<li>) " +array[0]+ "</li>" );
+// document.write("<li>) " +array[1]+ "</li>" );
+// document.write("<li>) " +array[2]+ "</li>" );
+// document.write("<li>) " +array[3]+ "</li>" );
+// document.write("<li>) " +array[4]+ "</li>" );
+// document.write("<li>) " +array[5]+ "</li>" );
+// document.write("<li>) " +array[6]+ "</li>" );
+// document.write("<li>) " +array[7]+ "</li>" );
+
+
+// document.write("<ol/>");
+
+
+
+
+
+// question.8_________________________________________*
+
+
+// var students = ["Michael","John","Tony"];
+// var score =[ 320,230,480];
+
+// var totalMarks =500;
+
+// document.write("score of " +students[0]+ " is " + score[0]+ ". Percentage :"+score[0]/totalMarks*100 +" % <br/>" );
+// document.write("score of " +students[1]+ " is " + score[1]+ ". Percentage :"+score[1]/totalMarks*100 +" % <br/>" );
+// document.write("score of " +students[2]+ " is " + score[2]+ ". Percentage :"+score[2]/totalMarks*100 +" %" );
+
+
+
+// question.9_________________________________________*
+
+
+
+
+// var color =["red","green","yellow "];
+
+// document.write(color[0] + " </br>");
+// document.write(color[1] + " </br>");
+// document.write(color[2] + " </br>");
+
+
+// a----------------------------------*
+
+
+// var startColor = prompt(" add your color to the beginning of the array");
+
+
+// color.unshift(startColor);
+// document.write(color);
+
+
+
+
+// b----------------------------------*
+
+
+// var endColor = prompt(" add your color to the End of the array");
+
+
+// color.push(endColor);
+// document.write(color);
+
+
+
+// c----------------------------------*
+
+// var color =["red","green","yellow "];
+
+// document.write(color);
+
+// color.unshift(",pink","white");
+// document.write(color);
+
+
+
+// d----------------------------------*
+
+// var color =["pink","red","green","yellow"];
+
+// document.write(color +"</br>");
+
+// color.shift();
+// document.write(color);
+
+
+
+// e----------------------------------*
+
+
+// var color =["pink","red","green","yellow"];
+// document.write(color +"</br>");
+
+// color.pop();
+// document.write(color);
+
