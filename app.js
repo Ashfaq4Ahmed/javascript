@@ -1261,3 +1261,648 @@
 // color.pop();
 // document.write(color);
 
+
+
+// F----------------------------------*
+// ?
+
+// g----------------------------------*
+
+// ?
+
+
+
+
+
+
+// question.10_________________________________________*
+
+// var scoreStudents = [320,230,480,120];
+
+// scoreStudents.sort();
+
+// document.write(scoreStudents);
+
+
+
+// question.11_________________________________________*
+
+
+// var cities = ["Karachi","Lahore","islamabad","Quetta","Peshawar"];
+
+// document.write(cities + "<br>");
+
+// var selectedCities = cities.slice(2,4);
+
+// document.write(selectedCities +"<br>");
+
+
+
+
+
+// question.12_________________________________________*
+
+
+// var arr = ["This","is","my","cat"];
+
+// var arr1 = arr.join(" ");
+
+// document.write(arr1);
+
+
+
+
+
+// question.13_________________________________________*
+
+
+// var newArray = [];
+
+// newArray[0] = "keyboard"
+// newArray[1] = "mouse"
+// newArray[2] = "printer"
+// newArray[3] = "monitor"
+
+// document.write("Devices: </br>" + newArray +" </br>");
+
+// document.write("Out: </br>" + newArray[0]+" </br>");
+// document.write("Out: </br>" + newArray[1]+" </br>");
+// document.write("Out: </br>" + newArray[2]+" </br>");
+// document.write("Out: </br>" + newArray[3]+" </br>");
+
+
+
+
+// question.14_________________________________________*
+
+
+// var newArray = ["keyboard","mouse","printer","monitor"];
+
+
+// document.write("Devices: </br>" + newArray +" </br>");
+
+// document.write("Out: </br>" + newArray[3]+" </br>");
+// document.write("Out: </br>" + newArray[2]+" </br>");
+// document.write("Out: </br>" + newArray[1]+" </br>");
+// document.write("Out: </br>" + newArray[0]+" </br>");
+
+
+
+
+
+// question.15_________________________________________*
+
+
+// var arr = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
+
+
+// document.write("<select>")
+// document.write("<option>"+ arr[0]+"</option>");
+// document.write("<option>"+ arr[1]+"</option>");
+// document.write("<option>"+ arr[2]+"</option>");
+// document.write("<option>"+ arr[3]+"</option>");
+// document.write("<option>"+ arr[4]+"</option>");
+// document.write("<option>"+ arr[5]+"</option>");
+
+// document.write("</<select>")
+
+
+
+
+
+
+
+// * * * * * * ________* * * * * 
+// * * * * * * ________* * * * * 
+
+// Chapter: 17-20
+
+// question.1_________________________________________*
+
+
+// var arr;
+
+// var arr = [
+
+//     [" ",  "  ",""],
+//     [" ",  "  ",""],
+//     [" ",  "  ",""]
+    
+// ];
+
+
+
+// question.2_________________________________________*
+
+// var arr1 = [
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+
+// ];
+
+
+
+// question.3_________________________________________*
+
+
+// for (var i = 1; i <=10; i++){
+//     document.write(i + "<br />");
+// }
+
+
+
+
+
+
+// question.4_________________________________________*
+
+
+// var tableNum = +prompt("Enter a number to show its multiplication table");
+// var tableLength = +prompt("Enter tablelength for table");
+
+
+// for ( var i = 1; i <= tableLength; i++){
+//     document.write(tableNum + "x" + i + " = " + i * tableNum + "<br />");
+// }
+
+
+
+
+
+// question.5_________________________________________*
+
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+
+//     for (var i = 0; i < fruits.length; i++){
+
+//         document.write(fruits[i] + "</br> </br>");
+        
+        
+        
+//     }
+
+
+//     var fruits = ["apple", "banana", "mango", "range","strawberry"];
+
+//     for (var i = 0; i < fruits.length; i++){
+
+//         document.write("Element of index " + i + " is " + fruits[i] + " </br>")
+        
+//     }
+
+    
+
+
+
+// question.6_________________________________________*
+
+// a) answer
+
+// document.write("Counting:");
+// for ( i = 1; i <= 15; i++) {
+        
+//     document.write(i+",");
+// }
+
+
+
+// b) answer
+
+// document.write("Reverse Counting:");
+// for ( i = 10; i >= 1; i--) {
+        
+//     document.write(i+",");
+// }
+
+
+
+
+// c) answer
+
+// document.write("Even:");
+// for ( i = 0; i <= 20; i +=2) {
+        
+//     document.write(i+",");
+// }
+
+
+
+
+// d) answer
+
+// document.write("odd:");
+// for ( i = 1; i < 20; i +=2) {
+        
+//     document.write(i+",");
+// }
+
+
+
+// d) answer
+
+// document.write("series:");
+// for ( i = 2; i <= 20; i +=2) {
+        
+//     document.write(i+"k,");
+// }
+
+
+
+
+
+
+// question.7_________________________________________*
+
+
+
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var useritem = prompt (" Welcom to ABC Bakery. What do yo want to order Sir/Ma'am?");
+
+// var matchFound = "no";
+// for (var i = 0; i < arr.length; i++){
+//     if (useritem === arr[i]){
+//         matchFound = "yes";
+//         alert( useritem +"is available at index" + arr[i] + "in our bakery");// i am unable to print index number in alert
+//     }
+// }
+// if (matchFound === "no") {
+//     alert("we are sorry."+ useritem + "is not available in our bakery");
+// }  
+
+
+
+
+
+// question.8_________________________________________*
+
+
+
+
+// arr = [24, 53, 78, 91, 12];
+
+// var largerNum = arr[3];
+
+// for (var i = 1; i > arr.largerNum; i++){
+//     if(arr[i] > largerNum){
+//         largerNum = arr[i];
+//     }
+// }
+// alert("Larger Number is : "+ largerNum );
+
+
+
+
+
+// question.9_________________________________________*
+
+
+
+// arr = [24, 53, 78, 91, 12];
+
+// var smallest = arr[4];
+
+// for (var i = 1; i < arr.smallest; i++){
+//     if(arr[i] < smallest){
+//         smallest = arr[i];
+//     }
+// }
+// alert("Smallest Number is : "+ smallest );
+
+
+
+// question.10_________________________________________*
+
+
+// for ( var i = 0; i <= 100; i +=5){
+//     document.write(i+",");
+// }
+///   0 is also printing why
+
+
+
+// ***_____________________***________________________***
+// ***_____________________***________________________***
+
+
+
+
+
+
+// question.1_________________________________________*       
+
+// var firstName = prompt("What is our first name?"," Please type here");
+// var lastName = prompt("What is  your last name?"," Please type here ");
+
+// var fullName = (firstName + " " +lastName );
+
+// document.write(" <h1>  Your are welcome  Mr. " + fullName + "<h1>");
+
+
+
+
+
+
+
+
+// question.2_________________________________________* 
+            
+
+
+// var userInput = prompt (" What is favorite mobile phone model?"," Please type here" );
+
+// var mobileModel = userInput;
+
+// var userInput = userInput.length;
+
+// document.write( " <h1> My favouriter Moible is :" + mobileModel + "<br />" + "Length of string  :" + userInput+ "<h1> ");
+
+
+
+
+
+
+// question.3_________________________________________* 
+              
+
+    // var string = "Pakistani";
+    // var index = string.indexOf("n");
+
+    //     document.write(" <h1> string :" + string + "</h1>");
+    //     document.write(" <h1> index of 'n' :" + index + "</h1>");
+
+
+
+
+
+
+
+
+
+// question.4_________________________________________*               
+
+
+    // var string = "Hello World" ;
+    // var index = string.lastIndexOf("l");
+    
+    //  document.write(" <h1> string :" + string + "</h1>");
+    //  document.write(" <h1> Last index of 'l' :" + index + "</h1>");
+    
+   
+
+
+// question.5_________________________________________* .
+               
+
+    // var string = "Pakistani";
+    // var index = string.charAt("3");
+
+    //     document.write(" <h1> string :" + string + "</h1>");
+    //     document.write(" <h1> Character at index  3 :" + index + "</h1>");
+
+
+
+
+
+//// question.6_________________________________________* 
+                //  Repeat Q1 using string concat() method.
+
+// var firstName = prompt("What is our first name?"," Please type here");
+// var lastName = prompt("What is  your last name?"," Please type here ");
+
+// var fullName = (firstName.concat(" ", lastName));
+
+// document.write(" <h1>  Your are welcome  Mr." + fullName + "<h1>");
+
+
+
+
+
+
+// question.7_________________________________________* 
+                
+
+
+
+
+        // var City ="Hyderabad";
+        // var ChangeCity = City.replace("Hyder","Islam");
+
+        // document.write(" <h1> City :" + City +"</h1>")
+        // document.write("<h1> After replacement :" +  ChangeCity + "</h1>")
+
+
+
+
+
+
+// question.8_________________________________________* 
+                        
+
+    // var message = "Ali and Sami are best friends. They play cricket and football together.";
+
+    // var messageEdit = message.replace(/and/g, "&");
+
+    // document.write ("<h1> Message :" + message + "<h1> <br />");
+    // document.write ("<h1>  After replacement :" + messageEdit + "<h1>");
+
+
+
+
+
+// question.9_________________________________________* 
+
+            // Write a program that converts a string “472” to a number
+            // 472. Display the values & types in your browser.
+
+            // var a = "472";
+            // document.write(" <h1> value :"+ a +  "<br> </h1>");
+            // document.write(" <h1>type :"+ typeof(a)+ "<br> </h1>");
+
+            // var b = parseInt(a);
+            // document.write("  <h1> value :"+ b +  "<br> </h1>");
+            // document.write("  <h1> type :"+typeof(b)+ "<br> </h1>");
+
+
+
+
+
+ // question.10_________________________________________* 
+
+
+
+            // var Input = prompt("what is your favorite city name?"," type here ");
+            // var Uppercase = Input.toUpperCase();
+
+            // document.write ("<h1>  User input :" + Input +"   </h1>" )
+
+            // document.write("<h1>  Upper case :" + Uppercase +"   </h1>" );
+
+
+
+
+
+// question.11_________________________________________* 
+
+       
+
+
+
+            // var userText = prompt("what is your favorite color?"," type here ");
+
+            // document.write("<h1>  User Text :" + userText +"   </h1>");
+            // document.write("<h1>  Titl Case   </h1>");
+
+            // var output = userText.toLowerCase().split(" ");
+            // for( var i=0; i < output.length; i++ ){
+            //     output[i] = output[i][0].toUpperCase() + output[i].slice(1);
+            // }
+            // document.write("<h1>" + output.join(" ")) +"</h1>";
+
+
+
+
+
+
+
+        // question.12_________________________________________* 
+
+            // var num = 35.36;
+            // var x = num.toString();
+    
+            // var a = x.valueOf(a);
+            // if  ( x = a){
+            //     document.write("Number :" + num + "<br>");
+            //     var b = a.replace(35.36 , "3635");
+            //     document.write("Resutl :" +b);
+               
+            // }
+
+          
+
+
+
+// question.13_________________________________________* 
+         
+
+
+            //     var userName = prompt (" Enter your name please","type here");
+
+            //     for (var i=0; i < userName.length; i++){
+
+            //     var contain = userName.codePointAt(i);
+            //     if(contain === 33 || contain === 64 ||contain === 46 || contain === 44){
+            //         alert(" Please Enter Valid User Name.");
+            //         break;
+               
+            //     }
+            // }
+        
+          
+
+
+
+
+
+           
+
+       
+
+
+// question.14_________________________________________* 
+
+
+                //   var A = ["cake","apple pie", "cookie", "chips", "patties"];
+                //   var input = prompt("Welcom to ABC Bakery! what do you want to order sir/ma'am?");
+
+                
+                //   for( i=0; i < A.length; i++) {
+                //     if(input.toLowerCase() === A[i]){
+                //         document.write(" <p> your ordered "+ input + " :"+  " is  <b> available </b>at  index :"+ i + "<p>");
+                //         break;
+                //     }
+                //   }
+
+                //   if(input.toLowerCase() !== A[i]){
+                //     document.write(" <p> your ordered "+ input +  " is not available at  index : <p>" );
+                    
+                //   }
+
+
+        
+
+ // question.15_________________________________________* 
+
+                
+
+                // var password = prompt("Enter your Password", "type");
+                // if (password.length <= 6 || password.length === " ")
+                // {
+
+                //        document.write("<h1> password must be more the 6 chraceters </h1> ");
+                      
+                // }
+                
+                //     if(password.charCodeAt(0) < 65 )
+                //     {
+                     
+                //         document.write( " <h1> your passwor is: "+ password + "<br>" + " Password connot begin with number"+ "<br>" + "  Enter a valid password </h1>" );
+                    
+                //     }
+                //     if(password.charCodeAt(0) > 65 &&  password.length >= 6){
+                //         document.write("<h1> valid password </h1>");
+
+                //     }
+
+
+
+
+// question.16_________________________________________* 
+
+
+                    // var university = "University of Karach";
+                    // var  arr = [];
+
+                    //     arr = university.split("");
+
+                    //     for (i=0; i < university.length; i++)
+                    // {
+                    //     document.write(arr[i]+"<br>");
+                    // }
+
+
+                    
+
+
+   // question.17_________________________________________* 
+
+
+                    // var userInput = prompt (" enter your counter name pleae","type here please");
+
+                    // document.write(" <h1> userInput :" + userInput + "</h1>");
+
+
+                    //     userInput = userInput.charAt(userInput.length -1);
+
+                    //     document.write(" <h1>last character of a user input is :" + userInput + "</h1>");
+
+
+
+
+
+                
+// question.18_________________________________________* 
+
+                // var str = " The quick brown fox jumps over the lazy dog";
+                 
+                //     document.write(" <h1> String :" + str + "</h1>" );
+
+                //     strCount = (str.match(/the/gi) || []).length;
+
+                //     document.write("<h1> There are  " + strCount + " occurrences of word 'the' </h1>" );
+
+
+
+
+
+
